@@ -1,0 +1,18 @@
+C:\Users\Remo-PC\Desktop\Programming I\Lession01\MyFirstWindowsFormsProject\bin\Debug\MyFirstWindowsFormsProject.exe.config
+C:\Users\Remo-PC\Desktop\Programming I\Lession01\MyFirstWindowsFormsProject\bin\Debug\MyFirstWindowsFormsProject.exe
+C:\Users\Remo-PC\Desktop\Programming I\Lession01\MyFirstWindowsFormsProject\bin\Debug\MyFirstWindowsFormsProject.pdb
+C:\Users\Remo-PC\Desktop\Programming I\Lession01\MyFirstWindowsFormsProject\obj\Debug\MyFirstWindowsFormsProject.csprojAssemblyReference.cache
+C:\Users\Remo-PC\Desktop\Programming I\Lession01\MyFirstWindowsFormsProject\obj\Debug\MyFirstWindowsFormsProject.Properties.Resources.resources
+C:\Users\Remo-PC\Desktop\Programming I\Lession01\MyFirstWindowsFormsProject\obj\Debug\MyFirstWindowsFormsProject.csproj.GenerateResource.cache
+C:\Users\Remo-PC\Desktop\Programming I\Lession01\MyFirstWindowsFormsProject\obj\Debug\MyFirstWindowsFormsProject.exe
+C:\Users\Remo-PC\Desktop\Programming I\Lession01\MyFirstWindowsFormsProject\obj\Debug\MyFirstWindowsFormsProject.pdb
+C:\Users\Remo-PC\Desktop\Programming I\Lession01\MyFirstWindowsFormsProject\obj\Debug\MyFirstWindowsFormsProject.Form1.resources
+C:\zbwProgrammingI\Lession01\MyFirstWindowsFormsProject\bin\Debug\MyFirstWindowsFormsProject.exe.config
+C:\zbwProgrammingI\Lession01\MyFirstWindowsFormsProject\bin\Debug\MyFirstWindowsFormsProject.exe
+C:\zbwProgrammingI\Lession01\MyFirstWindowsFormsProject\bin\Debug\MyFirstWindowsFormsProject.pdb
+C:\zbwProgrammingI\Lession01\MyFirstWindowsFormsProject\obj\Debug\MyFirstWindowsFormsProject.csprojAssemblyReference.cache
+C:\zbwProgrammingI\Lession01\MyFirstWindowsFormsProject\obj\Debug\MyFirstWindowsFormsProject.Form1.resources
+C:\zbwProgrammingI\Lession01\MyFirstWindowsFormsProject\obj\Debug\MyFirstWindowsFormsProject.Properties.Resources.resources
+C:\zbwProgrammingI\Lession01\MyFirstWindowsFormsProject\obj\Debug\MyFirstWindowsFormsProject.csproj.GenerateResource.cache
+C:\zbwProgrammingI\Lession01\MyFirstWindowsFormsProject\obj\Debug\MyFirstWindowsFormsProject.exe
+C:\zbwProgrammingI\Lession01\MyFirstWindowsFormsProject\obj\Debug\MyFirstWindowsFormsProject.pdb
