@@ -1,0 +1,9 @@
+C:\zbwProgrammingI\Lession01\MySecondWindowsFormsProject\bin\Debug\MySecondWindowsFormsProject.exe.config
+C:\zbwProgrammingI\Lession01\MySecondWindowsFormsProject\bin\Debug\MySecondWindowsFormsProject.exe
+C:\zbwProgrammingI\Lession01\MySecondWindowsFormsProject\bin\Debug\MySecondWindowsFormsProject.pdb
+C:\zbwProgrammingI\Lession01\MySecondWindowsFormsProject\obj\Debug\MySecondWindowsFormsProject.csprojAssemblyReference.cache
+C:\zbwProgrammingI\Lession01\MySecondWindowsFormsProject\obj\Debug\MySecondWindowsFormsProject.Form1.resources
+C:\zbwProgrammingI\Lession01\MySecondWindowsFormsProject\obj\Debug\MySecondWindowsFormsProject.Properties.Resources.resources
+C:\zbwProgrammingI\Lession01\MySecondWindowsFormsProject\obj\Debug\MySecondWindowsFormsProject.csproj.GenerateResource.cache
+C:\zbwProgrammingI\Lession01\MySecondWindowsFormsProject\obj\Debug\MySecondWindowsFormsProject.exe
+C:\zbwProgrammingI\Lession01\MySecondWindowsFormsProject\obj\Debug\MySecondWindowsFormsProject.pdb
