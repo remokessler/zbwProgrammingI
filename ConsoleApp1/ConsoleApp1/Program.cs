@@ -7,14 +7,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(SongDecoder("WUBWUBIWUBWUBWUBWUBAMWUBROBOTWUBWUBWUB"));
-            Console.WriteLine(SongDecoder("WUBWUBABCWUB"));
-            Console.WriteLine(SongDecoder("RWUBWUBWUBLWUB"));
+            byte c = 121;
+            c = (byte)~c;
+            Console.WriteLine(c.ToString());
             Console.ReadLine();
-        }
-        public static string SongDecoder(string input)
-        {
-            return new Regex(@"(WUB)\1*").Replace(input, " ").Trim();
         }
     }
 }
