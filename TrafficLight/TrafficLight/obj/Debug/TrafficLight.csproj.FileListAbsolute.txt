@@ -1,0 +1,9 @@
+C:\zbwProgrammingI\TrafficLight\TrafficLight\bin\Debug\TrafficLight.exe.config
+C:\zbwProgrammingI\TrafficLight\TrafficLight\bin\Debug\TrafficLight.exe
+C:\zbwProgrammingI\TrafficLight\TrafficLight\bin\Debug\TrafficLight.pdb
+C:\zbwProgrammingI\TrafficLight\TrafficLight\obj\Debug\TrafficLight.csprojAssemblyReference.cache
+C:\zbwProgrammingI\TrafficLight\TrafficLight\obj\Debug\TrafficLight.Form1.resources
+C:\zbwProgrammingI\TrafficLight\TrafficLight\obj\Debug\TrafficLight.Properties.Resources.resources
+C:\zbwProgrammingI\TrafficLight\TrafficLight\obj\Debug\TrafficLight.csproj.GenerateResource.cache
+C:\zbwProgrammingI\TrafficLight\TrafficLight\obj\Debug\TrafficLight.exe
+C:\zbwProgrammingI\TrafficLight\TrafficLight\obj\Debug\TrafficLight.pdb
