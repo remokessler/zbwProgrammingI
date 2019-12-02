@@ -1,0 +1,14 @@
+body { 
+        background-image: url('./kitty.jpg');
+        width: 99%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    img {
+        position: fixed;
+    }
+    .rainbow-text {
+        background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
