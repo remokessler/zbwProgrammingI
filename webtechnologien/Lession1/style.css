@@ -1,6 +1,6 @@
 body { 
         background-image: url('./kitty.jpg');
-        width: 99%;
+        background-attachment: fixed;
         background-repeat: no-repeat;
         background-size: cover;
     }

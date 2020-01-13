@@ -1,0 +1,9 @@
+C:\zbwProgrammingI\Lession06\Lession06\bin\Debug\Lession06.exe.config
+C:\zbwProgrammingI\Lession06\Lession06\bin\Debug\Lession06.exe
+C:\zbwProgrammingI\Lession06\Lession06\bin\Debug\Lession06.pdb
+C:\zbwProgrammingI\Lession06\Lession06\obj\Debug\Lession06.csprojAssemblyReference.cache
+C:\zbwProgrammingI\Lession06\Lession06\obj\Debug\Lession06.Form1.resources
+C:\zbwProgrammingI\Lession06\Lession06\obj\Debug\Lession06.Properties.Resources.resources
+C:\zbwProgrammingI\Lession06\Lession06\obj\Debug\Lession06.csproj.GenerateResource.cache
+C:\zbwProgrammingI\Lession06\Lession06\obj\Debug\Lession06.exe
+C:\zbwProgrammingI\Lession06\Lession06\obj\Debug\Lession06.pdb

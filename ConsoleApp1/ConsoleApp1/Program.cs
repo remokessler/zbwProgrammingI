@@ -1,5 +1,6 @@
 ﻿using System;
-using System.Text.RegularExpressions;
+using System.Linq;
+using System.Collections.Generic;
 
 namespace ConsoleApp1
 {
@@ -7,12 +8,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int val = 23;
-
-            var text = val > 0 ? val % 2 == 0 ? "ist positiv und gerade" : "ist positiv und ungerade" : val % 2 == 0 ? "ist negativ und gerade" : "ist negativ und ungerade";
-
-            Console.WriteLine(text.ToString());
+            Console.WriteLine(IsPrime(2));
             Console.ReadLine();
+        }
+
+        public static bool IsPrime(int n)
+        {
+            return n == 2 ? true : n == 0 || n == 1 ? false : Enumerable.Range(2, n - 2).All(i => n % i != 0);
         }
     }
 }

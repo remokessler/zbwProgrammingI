@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="./style.css" rel="stylesheet">
+    <title>Document</title>
+    <!--continue here: https://www.w3schools.com/html/html_images.asp-->
+</head>
+<body>
+    <!--Headers-->
+    <h1>Header 1</h1>
+    <h2>Header 2</h2>
+    <h3>Header 3</h3>
+    <h4>Header 4</h4>
+    <h5>Header 5</h5>
+    <h6>Header 6</h6>
+
+    <!--Navigation Elements-->
+    <a href="www.google.com" target="_blank">Google</a> <!--
+        _blank - Opens the linked document in a new window or tab
+        _self - Opens the linked document in the same window/tab as it was clicked (this is default)
+        _parent - Opens the linked document in the parent frame
+        _top - Opens the linked document in the full body of the window-->
+
+    <h2 id="Bookamark1">Bookmarked point</h2>
+    <a href="#Bookmark1">Jump in html to Bookmarked point</a> <!--<a href="myhtml.html#Bookmark1">Jump to Bookmarked point</a>-->
+
+    <!--Text Display-->
+    <p title="My Text on Mouseover on the paragraph">Paragraph</p>
+    <br> <!--Linebreak-->
+    <hr> <!--Linebreak-->
+    <pre>
+        My Text keeps my Whitespaces
+
+
+        And I'm Down Under.
+    </pre>
+
+    <!--Text Fromating-->
+    <b>I am bold</b>
+    <strong>I am bold too, and get shouted with text to speech</strong>
+    <i>I am italic</i>
+    <em>I am italic too, and get emphesysed with text to speech</em>
+    <small>I am Smaller</small>
+    <mark>I highlight</mark>
+    <del>I am crossed through</del>
+    <ins>I am underlined</ins>
+    <sub>I am lowered text</sub>
+    <sup>I a highered text</sup>
+    <cite></cite>
+    <blockquote cite="inspieringQuotes.com">
+        Sup biteches
+    </blockquote>
+    <abbr title="Start jacking off in your room, and once your hard, yell as loud as you can 'mom' or 'dad' and try the ejaculate before they come in.">Suicide Jerk Off</abbr>
+    <address>
+        My Name<br>
+        My Street<br>
+        My Country
+    </address>
+    <bdo dir="rtl">This line will be written from right to left</bdo>
+
+    <!--Media-->
+    <img src="example.jpg" alt="example.com" width="150" height="250">
+
+    <!--Lists-->
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+    
+    <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+    <!--Setting Colors-->
+    <p style="background-color:Tomato;">Lorem ipsum...</p>
+    <p style="border:2px solid Violet;">Hello World</p>
+    <p style="background-color:rgb(255, 99, 71, 1);">...</p><!--rgba(red, green, blue, alpha (0-1))-->
+    <p style="background-color:#ff6347;">...</p>
+    <p style="background-color:hsl(9, 100%, 64%);">...</p><!--hsl(hue, saturation, lightness)-->
+
+    <!--CSS Examples-->
+    <style>
+        p, div, h1 {
+            color: red;
+            font-family: courier;
+            font-size: 160%;
+            border: 1px solid powderblue;
+            padding: 5px;
+            margin: 5px;
+        }
+        #id {
+            /*CSS for element with speciffic Id*/
+        }
+        .class p.class {
+            /*CSS for element with specific classes || all p tags with speciffic classes*/
+        }
+
+        a:link, a:visited, a:hover, a:active {
+            text-decoration: underline; /*underline, wavy, overline, solid*/
+        }
+    </style>
+</body>
+</html>
