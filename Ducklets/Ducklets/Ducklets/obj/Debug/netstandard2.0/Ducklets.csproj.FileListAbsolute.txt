@@ -1,0 +1,13 @@
+C:\zbwProgrammingI\Ducklets\Ducklets\Ducklets\bin\Debug\netstandard2.0\Ducklets.deps.json
+C:\zbwProgrammingI\Ducklets\Ducklets\Ducklets\bin\Debug\netstandard2.0\Ducklets.dll
+C:\zbwProgrammingI\Ducklets\Ducklets\Ducklets\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\zbwProgrammingI\Ducklets\Ducklets\Ducklets\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\zbwProgrammingI\Ducklets\Ducklets\Ducklets\obj\Debug\netstandard2.0\Ducklets.AssemblyInfoInputs.cache
+C:\zbwProgrammingI\Ducklets\Ducklets\Ducklets\obj\Debug\netstandard2.0\Ducklets.AssemblyInfo.cs
+C:\zbwProgrammingI\Ducklets\Ducklets\Ducklets\obj\Debug\netstandard2.0\Ducklets.csprojAssemblyReference.cache
+C:\zbwProgrammingI\Ducklets\Ducklets\Ducklets\bin\Debug\netstandard2.0\ref\Ducklets.dll
+C:\zbwProgrammingI\Ducklets\Ducklets\Ducklets\bin\Debug\netstandard2.0\Ducklets.pdb
+C:\zbwProgrammingI\Ducklets\Ducklets\Ducklets\obj\Debug\netstandard2.0\XamlC.stamp
+C:\zbwProgrammingI\Ducklets\Ducklets\Ducklets\obj\Debug\netstandard2.0\Ducklets.dll
+C:\zbwProgrammingI\Ducklets\Ducklets\Ducklets\obj\Debug\netstandard2.0\ref\Ducklets.dll
+C:\zbwProgrammingI\Ducklets\Ducklets\Ducklets\obj\Debug\netstandard2.0\Ducklets.pdb
