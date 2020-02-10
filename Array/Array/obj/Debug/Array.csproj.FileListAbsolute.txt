@@ -1,0 +1,9 @@
+C:\zbwProgrammingI\Array\Array\bin\Debug\Array.exe.config
+C:\zbwProgrammingI\Array\Array\bin\Debug\Array.exe
+C:\zbwProgrammingI\Array\Array\bin\Debug\Array.pdb
+C:\zbwProgrammingI\Array\Array\obj\Debug\Array.csprojAssemblyReference.cache
+C:\zbwProgrammingI\Array\Array\obj\Debug\Array.Form1.resources
+C:\zbwProgrammingI\Array\Array\obj\Debug\Array.Properties.Resources.resources
+C:\zbwProgrammingI\Array\Array\obj\Debug\Array.csproj.GenerateResource.cache
+C:\zbwProgrammingI\Array\Array\obj\Debug\Array.exe
+C:\zbwProgrammingI\Array\Array\obj\Debug\Array.pdb
