@@ -1,5 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+    <!--HTML= Hyper Text Markup Language-->
+    <!--HTML Is Not Case Sensitive - HTML tags are not case sensitive: <P> means the same as <p>.-->
+    <!--Attribute
+        The title attribute provides additional "tool-tip" information
+        The href attribute provides address information for links
+        The alt attribute provides text for screen readers
+        At W3Schools we always use lowercase attribute names
+        At W3Schools we always quote attribute values
+    -->
+
 <head>
     <!--icon für website in browsertab-->
     <link rel="shortcut icon" href="./resources/img/favicon/favicon.ico" />
@@ -29,7 +39,7 @@
     <!--Text Display-->
     <p title="My Text on Mouseover on the paragraph">Paragraph</p>
     <br> <!--Linebreak-->
-    <hr> <!--Linebreak-->
+    <hr> <!--Linebreak with line-->
     <pre>
         My Text keeps my Whitespaces
 
@@ -48,10 +58,13 @@
     <ins>I am underlined</ins>
     <sub>I am lowered text</sub>
     <sup>I a highered text</sup>
-    <cite></cite>
+    <!--Quotes-->
+    <cite>Work Title (Books)</cite>
+    <q>Short Quotes</q>
     <blockquote cite="inspieringQuotes.com">
         Sup biteches
     </blockquote>
+    <!--Abbreviations-->
     <abbr title="Start jacking off in your room, and once your hard, yell as loud as you can 'mom' or 'dad' and try the ejaculate before they come in.">Suicide Jerk Off</abbr>
     <address>
         My Name<br>
@@ -81,7 +94,7 @@
     </ol>
 
     <!--Form-->
-    <form action="">
+    <form action="/action_page.php" method="get">
         <!--Types: <input type="button">
 checkbox
 ,color => color picker
@@ -105,7 +118,9 @@ checkbox
 ,url
 ,week => week number & year-->
         <input type="week" />
-        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <!--for is for screenreader users and should be the same as the id of the input it is targeting.-->
+        <label for="myTextarea">My Textarea</label>
+        <textarea id="myTextarea" cols="30" rows="10"></textarea>
         <!--
             Size => display multiple
             multiple => multi select
@@ -113,7 +128,7 @@ checkbox
         <select name="car" id="car" size="3" multiple>
             <option value=""></option>
         </select>
-    </form>
+    <form>
 
     <!--Setting Colors-->
     <p style="background-color:Tomato;">Lorem ipsum...</p>
@@ -175,6 +190,12 @@ checkbox
         - :nth-child etc.
         - http://flukeout.github.io/
         - @media queries
+        - HTML Formular
+        - canvas
+        - svg scalable vector graphic
+        - medien
+        - tr / td / th
+        - list styles => list-style-type
         */
     </style>
 </body>
