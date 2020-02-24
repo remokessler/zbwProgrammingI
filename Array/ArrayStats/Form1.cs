@@ -28,7 +28,8 @@ namespace ArrayStats
             var r = new Random();
             var alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
             var data = new int[1000].Select(i => alphabet[r.Next(0, 26)]);
-            TxtRazerRgb.Text = string.Join(Environment.NewLine, data);
+            var stats = data.Distinct().Select(c => c + ": " + data.Count(d => d == c));
+            TxtRazerRgb.Text = string.Join(Environment.NewLine, stats);
         }
         private void RgbSupport()
         {

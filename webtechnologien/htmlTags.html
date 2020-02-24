@@ -62,6 +62,10 @@
 
     <!--Media-->
     <img src="example.jpg" alt="example.com" width="150" height="250">
+    <picture>
+        <source srcset="" />
+        <img />
+    </picture>
 
     <!--Lists-->
     <ul>
@@ -75,6 +79,41 @@
         <li>Tea</li>
         <li>Milk</li>
     </ol>
+
+    <!--Form-->
+    <form action="">
+        <!--Types: <input type="button">
+checkbox
+,color => color picker
+,date
+,datetime-local => date & time
+,email
+,file => fileupload
+,hidden
+,image
+,month => month in letter & year
+,number
+,password => ****
+,radio => one select
+,range => slider
+,reset => button with form clear
+,search => lookup on page
+,submit => submits form
+,tel
+,text
+,time
+,url
+,week => week number & year-->
+        <input type="week" />
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <!--
+            Size => display multiple
+            multiple => multi select
+        -->
+        <select name="car" id="car" size="3" multiple>
+            <option value=""></option>
+        </select>
+    </form>
 
     <!--Setting Colors-->
     <p style="background-color:Tomato;">Lorem ipsum...</p>
@@ -99,19 +138,43 @@
         .class p.class {
             /*CSS for element with specific classes || all p tags with speciffic classes*/
         }
-
-        a:link, a:visited, a:hover, a:active {
-            text-decoration: underline; /*underline, wavy, overline, solid*/
+        p > .class {
+            /* all .classes within a p tag */
+        }
+        p ~ div {
+            /* all x divs following a p tag on the same level without interruption*/
+        }
+        p + div {
+            /*Selects all <div> elements that are placed immediately after <p> elements*/
         }
         * {
             /*all element selector*/
+        }
+        .attribute[attr="xyz"], .attribute[attr^="x"], .attribute[attr$="z"], .attribute[attr*="y"], .attribute[attr~=flower] .attribute[attr] {
+            /*  <div attr="xyz" />
+                = is equal
+                ^= starts with
+                $= ends with
+                *= contains
+                ~= contianing the word
+                all with the attribute no matter the value
+            */
+        }
+        div:empty {
+            /* select all <div> without child element */
+        }
+
+        a:link, a:visited, a:hover, a:active {
+            text-decoration: underline; /*underline, wavy, overline, solid*/
         }
 
         /*
         TODO
         - Element selectors space + > ~
         - Pseudeelement selectors
-        - :nth-child etc
+        - :nth-child etc.
+        - http://flukeout.github.io/
+        - @media queries
         */
     </style>
 </body>

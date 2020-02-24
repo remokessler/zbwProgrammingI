@@ -60,16 +60,17 @@
             this.TxtRazerRgb.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.TxtRazerRgb.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtRazerRgb.Location = new System.Drawing.Point(12, 65);
             this.TxtRazerRgb.Multiline = true;
             this.TxtRazerRgb.Name = "TxtRazerRgb";
-            this.TxtRazerRgb.Size = new System.Drawing.Size(720, 360);
+            this.TxtRazerRgb.Size = new System.Drawing.Size(720, 458);
             this.TxtRazerRgb.TabIndex = 5;
             // 
             // BtnRazerRgb
             // 
             this.BtnRazerRgb.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.BtnRazerRgb.Location = new System.Drawing.Point(12, 431);
+            this.BtnRazerRgb.Location = new System.Drawing.Point(12, 529);
             this.BtnRazerRgb.Name = "BtnRazerRgb";
             this.BtnRazerRgb.Size = new System.Drawing.Size(284, 50);
             this.BtnRazerRgb.TabIndex = 4;
@@ -82,7 +83,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(750, 500);
+            this.ClientSize = new System.Drawing.Size(750, 598);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.TxtRazerRgb);
