@@ -1,0 +1,10 @@
+C:\Users\Alexander Palmer\OneDrive\Dokumente\prgfnd\source\repos\Unterrichtseinheit_10_Musterloesungen\Aufgabe_A10-1-5\bin\Debug\Aufgabe_A10-1-5.exe.config
+C:\Users\Alexander Palmer\OneDrive\Dokumente\prgfnd\source\repos\Unterrichtseinheit_10_Musterloesungen\Aufgabe_A10-1-5\bin\Debug\Aufgabe_A10-1-5.exe
+C:\Users\Alexander Palmer\OneDrive\Dokumente\prgfnd\source\repos\Unterrichtseinheit_10_Musterloesungen\Aufgabe_A10-1-5\bin\Debug\Aufgabe_A10-1-5.pdb
+C:\Users\Alexander Palmer\OneDrive\Dokumente\prgfnd\source\repos\Unterrichtseinheit_10_Musterloesungen\Aufgabe_A10-1-5\obj\Debug\Aufgabe_A10-1-5.csprojAssemblyReference.cache
+C:\Users\Alexander Palmer\OneDrive\Dokumente\prgfnd\source\repos\Unterrichtseinheit_10_Musterloesungen\Aufgabe_A10-1-5\obj\Debug\Aufgabe_A10_1_5.Form1.resources
+C:\Users\Alexander Palmer\OneDrive\Dokumente\prgfnd\source\repos\Unterrichtseinheit_10_Musterloesungen\Aufgabe_A10-1-5\obj\Debug\Aufgabe_A10_1_5.Properties.Resources.resources
+C:\Users\Alexander Palmer\OneDrive\Dokumente\prgfnd\source\repos\Unterrichtseinheit_10_Musterloesungen\Aufgabe_A10-1-5\obj\Debug\Aufgabe_A10-1-5.csproj.GenerateResource.cache
+C:\Users\Alexander Palmer\OneDrive\Dokumente\prgfnd\source\repos\Unterrichtseinheit_10_Musterloesungen\Aufgabe_A10-1-5\obj\Debug\Aufgabe_A10-1-5.csproj.CoreCompileInputs.cache
+C:\Users\Alexander Palmer\OneDrive\Dokumente\prgfnd\source\repos\Unterrichtseinheit_10_Musterloesungen\Aufgabe_A10-1-5\obj\Debug\Aufgabe_A10-1-5.exe
+C:\Users\Alexander Palmer\OneDrive\Dokumente\prgfnd\source\repos\Unterrichtseinheit_10_Musterloesungen\Aufgabe_A10-1-5\obj\Debug\Aufgabe_A10-1-5.pdb

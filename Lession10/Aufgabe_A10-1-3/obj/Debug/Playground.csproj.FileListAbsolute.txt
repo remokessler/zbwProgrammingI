@@ -1,0 +1,10 @@
+C:\Users\Alexander Palmer\OneDrive\Dokumente\prgfnd\source\repos\Unterrichtseinheit_10_Musterloesungen\Playground\bin\Debug\Playground.exe.config
+C:\Users\Alexander Palmer\OneDrive\Dokumente\prgfnd\source\repos\Unterrichtseinheit_10_Musterloesungen\Playground\bin\Debug\Playground.exe
+C:\Users\Alexander Palmer\OneDrive\Dokumente\prgfnd\source\repos\Unterrichtseinheit_10_Musterloesungen\Playground\bin\Debug\Playground.pdb
+C:\Users\Alexander Palmer\OneDrive\Dokumente\prgfnd\source\repos\Unterrichtseinheit_10_Musterloesungen\Playground\obj\Debug\Playground.csprojAssemblyReference.cache
+C:\Users\Alexander Palmer\OneDrive\Dokumente\prgfnd\source\repos\Unterrichtseinheit_10_Musterloesungen\Playground\obj\Debug\Playground.Form1.resources
+C:\Users\Alexander Palmer\OneDrive\Dokumente\prgfnd\source\repos\Unterrichtseinheit_10_Musterloesungen\Playground\obj\Debug\Playground.Properties.Resources.resources
+C:\Users\Alexander Palmer\OneDrive\Dokumente\prgfnd\source\repos\Unterrichtseinheit_10_Musterloesungen\Playground\obj\Debug\Playground.csproj.GenerateResource.cache
+C:\Users\Alexander Palmer\OneDrive\Dokumente\prgfnd\source\repos\Unterrichtseinheit_10_Musterloesungen\Playground\obj\Debug\Playground.csproj.CoreCompileInputs.cache
+C:\Users\Alexander Palmer\OneDrive\Dokumente\prgfnd\source\repos\Unterrichtseinheit_10_Musterloesungen\Playground\obj\Debug\Playground.exe
+C:\Users\Alexander Palmer\OneDrive\Dokumente\prgfnd\source\repos\Unterrichtseinheit_10_Musterloesungen\Playground\obj\Debug\Playground.pdb
