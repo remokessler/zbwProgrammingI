@@ -95,16 +95,14 @@
 
     <!--Tables-->
     <table>
+        <caption style="background-color: hotpink;">Super title of my table</caption>
         <tr>
-            <th>
-                Yes
-            </th>
-            <th>
-                No
+            <th colspan="2">
+                title
             </th>
         </tr>
         <tr>
-            <td>
+            <td rowspan="2">
                 x
             </td>
             <td>
@@ -112,14 +110,51 @@
             </td>
         </tr>
         <tr>
-            <td>
-                o
-            </td>
             <td>
                 x
             </td>
         </tr>
     </table>
+    <!-- felxbox-->
+    <div class="flex-container">
+        <!-- flex-grow/shrink default 1 it sets the growable or shrinkable property flex: grow shrink basis can also be used to set all-->
+        <div style="order: 3; flex-grow: 1;">1</div>
+        <div style="order: 2; flex-shrink: 2;">2</div>
+        <div style="order: 1; flex-basis: 400px; align-self: center;">3</div>
+    </div>
+    <style>
+        .flex-container {
+            flex-direction: column; /*row - flow of the elements*/
+            flex-wrap: wrap; /*wrap-reverse - wraps from bottom to top, nowrap - linebreaks between elements yes/no*/
+            flex-flow: column wrap; /*short for felx-direction and felx-wrap setting together*/
+            justify-content: center; /*
+                center     - Pack items around the center
+                start      - Pack items from the start
+                end        - Pack items from the end
+                flex-start - Pack flex items from the start
+                flex-end   - Pack flex items from the end
+                left       - Pack items from the left
+                right      - Pack items from the right
+                -- Normal alignment
+                normal
+                -- Distributed alignment
+                space-between  Distribute items evenly, The first item is flush with the start, the last is flush with the end 
+                space-around   Distribute items evenly, Items have a half-size space on either end
+                space-evenly   Distribute items evenly, Items have equal space around them
+                stretch        Distribute items evenly, Stretch 'auto'-sized items to fit the container
+                -- Overflow alignment
+                justify-content: safe center;
+                justify-content: unsafe center;*/
+            align-items: center; /*flex-end, felx-start, stretch, baseline - text baseline*/
+            align-content: center; /*flex-end, felx-start, stretch, space-around, space-between*/
+        }
+        .flex-container {
+            /*center element */
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+
 
     <!--Form-->
     <form action="/action_page.php" method="get">
@@ -158,6 +193,7 @@ checkbox
         </select>
     <form>
 
+
     <!--Setting Colors-->
     <p style="background-color:Tomato;">Lorem ipsum...</p>
     <p style="border:2px solid Violet;">Hello World</p>
@@ -175,6 +211,11 @@ checkbox
             padding: 5px;
             margin: 5px;
         }
+        table, th, td {
+            /* table borders */
+            border: 1px solid black;
+            border-spacing: 0;
+        }
         #id {
             /*CSS for element with speciffic Id*/
         }
@@ -190,6 +231,7 @@ checkbox
         p + div {
             /*Selects all <div> elements that are placed immediately after <p> elements*/
         }
+
         * {
             /*all element selector*/
         }
@@ -203,27 +245,99 @@ checkbox
                 all with the attribute no matter the value
             */
         }
-        div:empty {
-            /* select all <div> without child element */
+        div {
+            /*overflows */
+            overflow: auto;
+            overflow-x: scroll; 
+            overflow-y: visible;
+        }
+
+        div {
+            float:left; /*right, none*/
+            clear:left;
+            /*clear
+                none - Allows floating elements on both sides. This is default
+                left - No floating elements allowed on the left side
+                right- No floating elements allowed on the right side
+                both - No floating elements allowed on either the left or the right side
+                inherit - The element inherits the clear value of its parent
+            */
+        }
+        div {
+            display: inline-block; /*used for navigationbars to align items horizontal */
+        }
+
+        div {
+            /*align - use margin, padding on both sides equaly*/
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        div {
+            /*box sizing - width and height are with the border*/
+            box-sizing: border-box; /* or content-box*/
         }
 
         a:link, a:visited, a:hover, a:active {
             text-decoration: underline; /*underline, wavy, overline, solid*/
         }
 
+        div:hover {
+            /*Pseudeelement selectos*/
+            /*
+:active	            a:active	        Selects the active link
+:checked	        input:checked	    Selects every checked <input> element
+:disabled	        input:disabled	    Selects every disabled <input> element
+:empty	            p:empty	            Selects every <p> element that has no children
+:enabled	        input:enabled	    Selects every enabled <input> element
+:first-child	    p:first-child	    Selects every <p> elements that is the first child of its parent
+:first-of-type	    p:first-of-type	    Selects every <p> element that is the first <p> element of its parent
+:focus	            input:focus	        Selects the <input> element that has focus
+:hover	            a:hover	            Selects links on mouse over
+:in-range	        input:in-range	    Selects <input> elements with a value within a specified range
+:invalid	        input:invalid	    Selects all <input> elements with an invalid value
+:lang(language)	    p:lang(it)  	    Selects every <p> element with a lang attribute value starting with "it"
+:last-child	        p:last-child	    Selects every <p> elements that is the last child of its parent
+:last-of-type	    p:last-of-type	    Selects every <p> element that is the last <p> element of its parent
+:link	            a:link	            Selects all unvisited links
+:not(selector)	    :not(p)	            Selects every element that is not a <p> element
+:nth-child(n)	    p:nth-child(2)	    Selects every <p> element that is the second child of its parent
+:nth-last-child(n)	p:nth-last-child(2)	Selects every <p> element that is the second child of its parent, counting from the last child
+:nth-last-of-type(n)p:nth-last-of-type(2)	Selects every <p> element that is the second <p> element of its parent, counting from the last child
+:nth-of-type(n)	    p:nth-of-type(2)	Selects every <p> element that is the second <p> element of its parent
+:only-of-type	    p:only-of-type	    Selects every <p> element that is the only <p> element of its parent
+:only-child	        p:only-child	    Selects every <p> element that is the only child of its parent
+:optional	        input:optional	    Selects <input> elements with no "required" attribute
+:out-of-range	    input:out-of-range	Selects <input> elements with a value outside a specified range
+:read-only	        input:read-only	    Selects <input> elements with a "readonly" attribute specified
+:read-write	        input:read-write	Selects <input> elements with no "readonly" attribute
+:required	        input:required	    Selects <input> elements with a "required" attribute specified
+:root	            root	            Selects the document's root element
+:target	            #news:target	    Selects the current active #news element (clicked on a URL containing that anchor name)
+:valid	            input:valid	        Selects all <input> elements with a valid value
+:visited	        a:visited	        Selects all visited links*/ 
+        }
+        
+        /*Media Queries*/
+        /* Extra small devices (phones, 600px and down) */
+        @media only screen and (max-width: 600px) {/*...*/}
+        /* Small devices (portrait tablets and large phones, 600px and up) */
+        @media only screen and (min-width: 600px) {/*...*/}
+        /* Medium devices (landscape tablets, 768px and up) */
+        @media only screen and (min-width: 768px) {/*...*/}
+        /* Large devices (laptops/desktops, 992px and up) */
+        @media only screen and (min-width: 992px) {/*...*/}
+        /* Extra large devices (large laptops and desktops, 1200px and up) */
+        @media only screen and (min-width: 1200px) {/*...*/}
+        @media only print { /*printed version of webpage only. options: speech, print, screen, all*/ }
+        @media only screen, speech { /* screen or speech */}
+        @media only screen and (orientation: landscape) {/*or orientation: portrait*/}
         /*
         TODO
-        - Element selectors space + > ~
-        - table borders
-        - Pseudeelement selectors
-        - :nth-child etc.
-        - http://flukeout.github.io/
-        - @media queries
-        - HTML Formular
-        - canvas
+        - felxbox
         - svg scalable vector graphic
-        - medien
         - list styles => list-style-type
+        - output
         */
     </style>
 </body>
