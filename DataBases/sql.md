@@ -150,3 +150,177 @@ Jeder Datensatz der Tabelle 1 mit jedem Datensatz der Tabelle 2 kombinieren --> 
 
 ## Export
 @@secure-file-priv;
+
+
+
+
+
+
+
+# Union / Intersect / Except
+
+Kann teilmengen (selects) miteinander verbinden
+
+! NUR UNION WIRD UNTERSTÜTZT VON MYSQL !
+
+
+
+# Union
+
+Benötigt keyword All um  alles anzuzeigen sonst nur distinct
+
+
+
+# Intersect
+
+Was bei A und B vorkommt.
+
+Kann emuliert werden mit subselekt und AND verknüfung
+
+
+
+# Except
+
+Nur die die nicht in Treffermenge A und B vorkommen.
+
+
+
+# Index
+
+CREATE  INDEX autid ON newauthor(aut_id, b, c);
+
+create unique index == felder müssen einzigartig sein.
+
+DROP INDEX autid;
+
+
+
+SHOW INDEX FROM newauthor;
+
+
+
+## Selektivität
+
+Sollte 1 sein.
+
+
+
+s = UnterscheidbareEinträge / GesammtzahlEinträge
+
+
+
+# View
+
+CREATE VIEW <View Name> ALGORITHM = (undefined | TEMPTABLE | MERGE) AS <SELECT XY>;
+
+DROP VIEW <View Name>;
+
+
+
+## Algorithm
+
+undefined = dbms entscheidet
+
+temptable = temptable die automatisch aktualisiert wird.
+
+merge = view ist nicht vorabberechnet sondern als select statement eingefügt.
+
+
+
+## Security
+
+Rechte auf View und Darunterliegende Tabelle müssen nicht gleich sein.
+
+
+
+
+
+# Fallunterscheidung
+
+### Simple Case
+
+select Case <Variable>
+
+​	when <a>
+
+​	when <b>
+
+End Case
+
+from Kunde
+
+### Searched Case
+
+Case 
+
+​	when <Variable> = <val1>
+
+​	when <Variable> = <val2>
+
+End Case
+
+
+
+Die beiden können nicht kombiniert werden.
+
+
+
+#  Transactions
+
+## ACID
+
+- **Atomicity** − This ensures that all operations within the work unit are completed successfully; otherwise, the transaction is aborted at the point of failure and previous operations are rolled back to their former state.
+- **Consistency** − This ensures that the database properly changes states upon a successfully committed transaction.
+- **Isolation** − This enables transactions to operate independently on and transparent to each other.
+- **Durability** − This ensures that the result or effect of a committed transaction persists in case of a system failure.
+
+
+
+* You can control the behavior of a transaction by setting session variable called **AUTOCOMMIT**. If AUTOCOMMIT is set to 1 (the default), then each SQL statement (within a transaction or not) is considered a complete transaction and committed by default when it finishes.
+
+* When AUTOCOMMIT is set to 0, by issuing the **SET AUTOCOMMIT = 0** command, the subsequent series of statements acts like a transaction and no activities are committed until an explicit COMMIT statement is issued.
+
+
+
+## Multi Version Concurency Controll (MVCC)
+
+Snapshot of db
+
+
+
+# Stored Procedure
+
+DELIMITER $$; -- Setzt das endzeichen auf $$ anstelle von ;
+
+Create Procedure <name>
+
+(<in 'var1' varchar(20 )>)
+
+Begin <sql statement>; <sql statement2>;
+
+End$$
+
+DELIMITER ;
+
+
+
+Call <name>(<arguments>);
+
+
+
+Drop Procedure <name>;
+
+
+
+
+
+# Variables
+
+declare <name> <datatype> default <default wert>
+
+
+
+# IF statements
+
+if <condition> then <statements> else <statements2> end if;
+
