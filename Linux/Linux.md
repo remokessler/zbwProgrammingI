@@ -54,6 +54,12 @@ Alternative
 
 sudo apt-cache search <term> to look for packages
 
+apt-get update == updates source
+
+apt-get upgrade == actually update local files
+
+sources = /etc/apt/sources.list (offiziell von ubuntu) || /etc/apt/sources.list.d (third party) || --> apt-key add  um den schlüssel für ein 3rd party software hinzuzufügen
+
 
 
 * whoami
@@ -385,7 +391,157 @@ kill (SIGSTOP, SIGCONT, SIGTERM, SIGINT, SIGKILL, SIGHUB) <PID> --> kills a proc
 
 
 
-top --> basicly taskmanager m to toggle view
+top --> basicly taskmanager m to toggle view 
 
 
 
+# Screen
+
+Virtual Window
+
+screen 
+
+CTRL A, CTRL A --> Wechseln der screens.
+
+
+
+# User
+
+* adduser <username> --> user von Hand deluser für delete
+* useradd <username> --> user via Script userdel same 
+* deluser <username> --remove-all-files --> deletes it all.
+
+
+
+# Archives
+
+## dd
+
+disk backup / restore
+
+input and output .img oder datenträger
+
+dd <input> <output>
+
+
+
+## tar
+
+zip ordner
+
+
+
+c:create
+
+x:extract
+
+t:test
+z:gzip
+
+v:verbose
+
+f:filename
+
+
+
+# Logs
+
+syslogd --> logservice
+
+
+
+tail /var/log/messages
+
+tail /var/log/apt/history.logs
+
+
+
+tail gibt die letzten zeilen einer datei anzeigen.
+
+tail -f für fortlaufende aktualisierung
+
+
+
+
+
+# Specifications anzeigen
+
+lshw
+
+free -h
+
+du
+
+df -h
+
+iotop
+
+uptime
+
+htop
+
+
+
+stress --> künstliche last generieren
+
+stress --cpu 8 --io 4 --vm 2 --vm-bytes 128M timeout 15m
+
+
+
+# Task Scheduling
+
+crontab --> automatische Jobs
+
+crontab -l --> anzeigen aller task für aktuellen user
+
+crontab -e 0 5 * * * <myTask> --> min, h, d, M, Wochentag(Sonntag=0)
+
+chrontab  0,5,10,15,20,25,30,35,40,45,55 * * * * <myTask> --> alle 5 minuten
+
+
+
+/etc/cron.<hourly|monthly|weekly>
+
+
+
+
+
+
+
+# Befehlsverkettung
+
+<command> ; <command> --> nacheinander Befehle ausführen
+
+<command> && <command> --> erster Befehl erfolgreich dann den 2. ausführen
+
+<command> || <command> --> erster Befehl muss fehlschlagen dann wird der 2. ausgeführt
+
+<command> \
+
+<command> 	                        --> mehrzeilige Befehle
+
+
+
+<command> > file --> output ins file schreiben und altes überschreiben
+
+<command> >> file --> anhängen von output am file
+
+<command> 2> --> fehler des programmes in eine Datei schreiben
+
+<command> < file --> output von file als command input nehmen
+
+<command> | <command>--> ausgabe eines befehl als eingebe für den nächste nehmen
+
+
+
+cut -d: -f1,2,3 file --> spalten anlegen
+
+nl --> zeilennummer
+
+sort --> sortieren
+
+grep --> suchen
+
+egrep --> regex suche
+
+diff -> unterschiede von 2 dateien
