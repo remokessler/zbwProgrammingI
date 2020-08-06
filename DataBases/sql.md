@@ -149,6 +149,7 @@ Spaltenanzahl einschränken --> Selektion
 Jeder Datensatz der Tabelle 1 mit jedem Datensatz der Tabelle 2 kombinieren --> Join
 
 ## Export
+
 @@secure-file-priv;
 
 
@@ -267,6 +268,10 @@ Die beiden können nicht kombiniert werden.
 
 #  Transactions
 
+start transaction;
+
+commit; || rollback;
+
 ## ACID
 
 - **Atomicity** − This ensures that all operations within the work unit are completed successfully; otherwise, the transaction is aborted at the point of failure and previous operations are rolled back to their former state.
@@ -277,8 +282,16 @@ Die beiden können nicht kombiniert werden.
 
 
 * You can control the behavior of a transaction by setting session variable called **AUTOCOMMIT**. If AUTOCOMMIT is set to 1 (the default), then each SQL statement (within a transaction or not) is considered a complete transaction and committed by default when it finishes.
-
 * When AUTOCOMMIT is set to 0, by issuing the **SET AUTOCOMMIT = 0** command, the subsequent series of statements acts like a transaction and no activities are committed until an explicit COMMIT statement is issued.
+
+
+
+## Isolationlevels
+
+* Serializable: Jede transaction läuft als gäbe es keine andere. Verhindert Phantom Read (Gelöschte Datensätze sehen)
+* repeateable read: es wird innerhalb einer Transaction immer die gleichen ergebnisse Gelesen.
+* read committed:  nach commit der Transaction werden die neuen Werte gelesen.
+* read uncommitted: alle dürfen schreiben, whenever, auch wenn die transaction noch nicht fertig ist.
 
 
 
@@ -294,7 +307,15 @@ DELIMITER $$; -- Setzt das endzeichen auf $$ anstelle von ;
 
 Create Procedure <name>
 
-(<in 'var1' varchar(20 )>)
+(
+
+​	in 'var1' varchar(20 )> // normal
+
+​	out 'var1' varchar(20 )> // return value
+
+​	inout 'var1' varchar(20 )> // out value
+
+)
 
 Begin <sql statement>; <sql statement2>;
 
@@ -312,8 +333,6 @@ Drop Procedure <name>;
 
 
 
-
-
 # Variables
 
 declare <name> <datatype> default <default wert>
@@ -324,3 +343,62 @@ declare <name> <datatype> default <default wert>
 
 if <condition> then <statements> else <statements2> end if;
 
+
+
+# Loops
+
+
+
+## Loop
+
+Endlosse, abweisende Schleife == do { } while(true) in c#
+
+
+
+<name>: loop
+
+​	statement 1;
+
+​	statement 2;
+
+​	leave <name>;
+
+end loop <name>;
+
+
+
+Endet auch bei Exceptions.
+
+
+
+## While
+
+Kopfgesteuert, annehmende Schleife == while() {} in c#
+
+
+
+while <x not y> do
+
+​	statement 1;
+
+​	statement 2;
+
+​	set x = x + 1;
+
+end while;
+
+
+
+## Repeat
+
+Fussgesteuerte, abweisende Schleife == do { } while() in c#
+
+
+
+repeat
+
+​	statement 1;
+
+​	statement 2;
+
+until <x not y> end repeat;
